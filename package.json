@@ -1,0 +1,36 @@
+{
+  "name": "react-redux-thunk-example",
+  "version": "2.0.0",
+  "description": "Minimum build system for React, Webpack and Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./start-server.js",
+    "dev": "npx webpack --watch --config webpack.config.dev.js --mode development",
+    "build": "npx webpack --config webpack.config.prod.js --mode production"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "build"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/node": "^7.14.2",
+    "@babel/preset-env": "^7.14.4",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "lodash.isempty": "^4.4.0",
+    "prettier": "2.4.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.4",
+    "redux": "^4.1.0",
+    "redux-thunk": "^2.3.0",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
